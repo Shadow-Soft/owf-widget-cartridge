@@ -74,4 +74,3 @@ fi
 %doc %{cartridgedir}/LICENSE
 
 %changelog
-
