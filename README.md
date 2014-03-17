@@ -13,7 +13,7 @@ Building the RPM package
 ------------------------
 Prerequisites
 
-* RHEL or Fedora with the "Development Tools" group installed
+* RHEL or Fedora with the "Development Tools" group installed.  For RHEL, the tito package is available via the [EPEL](https://fedoraproject.org/wiki/EPEL) repository.
 
 * The Tito rpm build tools
 
@@ -28,6 +28,8 @@ Prerequisites
 > git clone https://github.com/Shadow-Soft/owf-widget-cartridge.git
 
 > cd owf-widget-cartridge
+
+> rm -fr rel-eng
 
 > tito init (first build after cloning only)
 
